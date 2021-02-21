@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBLD</title>
+    <link rel="stylesheet" href="MyBLD.css">
+    <script src="/HTML/myBLD.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><img src="/foodlogo.jpg" alt="NotAvailaible"><h2>MyBLD.com</h2></div>
+        <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+        </div>
+        <div class="right">
+        <button class="btn">Login</button>
+        <button class="btn">Sign Up</button>
+    </div>
+    </header>
+
+    <section id="home">
+        <h1 class="h-primary"> Welcome to MyBreakfastLunchDinner.com</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab voluptas doloremque fuga a perferendis autem consequatur </p><p> ducimus ipsa quasi eos quod architecto qui inventore vel repudiandae quaerat deserunt </p></p>
+<button class="btn">Order now</button></section>
+
+<h1 class="primaryservices">Our Services</h1>
+<section id="services">
+     
+    <div class="box"> <h3>Food Ordering</h3> <br>
+     <img src="/1.jpg" alt="Food ordering">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni maiores perferendis officiis. Magni cumque porro ullam officia sint aliquam sit voluptates at Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p></div>
+
+    <div class="box"> <h3>Catering</h3> <br>
+     <img src="/2.jpg" alt="Food ordering">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni maiores perferendis officiis. Magni cumque porro ullam officia sint aliquam sit voluptates at Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
+
+    <div class="box"> <h3>Bulk Ordering</h3> <br>
+     <img src="/3.jpg" alt="Food ordering">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni maiores perferendis officiis. Magni cumque porro ullam officia sint aliquam sit voluptates at Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
+
+</section>
+
+<section id="clientsmain"><h1 class="primaryclients">Our Clients</h1>
+    <div id="client">
+        <div class="item"> <img src="/a.jpg"> </div>
+        <div class="item"> <img src="/b.jpg"> </div>
+        <div class="item"> <img src="/c.jpg"> </div>
+        <div class="item"> <img src="/d.png"> </div>
+    </div>
+</section>
+
+<section id = "contactus"> <h1 class="primarycontact">Contact Us </h1>
+    <div id="contactbox">
+        <form name="myForm" action="no-action.php"  method="POST" > 
+        <div class="form-group">
+            <input type="text" placeholder="Name" name="fname" id="id1">
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="Email id" name="fname">
+        </div>
+        <div class="form-group">
+            <input type="tel" placeholder="Contact Number" name="fname">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Address" name="fname">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Alternate Email ID" name="fname">
+        </div>
+        <button class="btn" onclick="return validateForm()" >Submit</button>
+        
+    </form>
+    </div>
+</section>
+
+</body>
+</html>

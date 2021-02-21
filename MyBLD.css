@@ -1,0 +1,269 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+display: flex;
+background-color: unset;
+height: 124px;
+}
+.header .mid{
+    height: 41px;
+    width: 494px;
+    padding: 4px;
+    margin-top: -11px;
+}
+.logo img{
+    display: block;
+    width: 107px;
+    /* border: 2px solid blue; */
+    padding: 0px;
+    margin: 10px;}
+.logo h2{
+    /* border:2px solid red */
+    margin-top: -16px;
+    margin-left: -3px;
+    font-family: cursive;
+    color: orangered;
+} 
+.mid{
+    display: block;
+}
+.navbar{
+    padding: left 5px; ;
+}
+.navbar li{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    font-size: x-large;
+    font-family: cursive;
+    /* text-align: center; */
+}
+.navbar li a{
+    text-decoration: none; 
+    color: honeydew;   
+}
+.navbar li a:hover{
+    color: orangered;
+}
+.mid{
+    text-align: center;
+    text-justify: center;
+    /* border:2px solid red; */
+    padding-bottom: 10px;
+}
+.right {
+    position: relative;
+    display: inline;
+    /* border: 2px solid blue; */
+    height: 66px;
+    width: 179px;
+    margin-left: 507px;
+}
+.btn{
+    margin: 11px;
+    margin-left: 19px;
+    /* margin top: 0px; */
+    padding: 5px;
+    /* border: blue 2px solid; */
+    border-radius: 10px;
+    margin-top: 16px;
+font-family:cursive ;}
+.btn:hover{
+    color: orangered;
+}
+
+/* home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid brown; */
+    /* height: 161px;    */
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("/foodbg1.jpg") no-repeat center center/cover ;
+    height: 297px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.1;
+}
+ #home h1{
+    padding: 0px;
+    color: white;
+}
+#home p{
+    padding: 0px;
+    margin: auto;
+    color: white;
+}
+
+/* services section  */
+
+#services{
+    
+    margin: 42px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
+
+#services .primaryservices h1{
+    display: block;
+    margin-top: 42px;
+    text-align: center;
+    justify-content: center;
+    font-size: 52px
+    
+}
+
+/* flex-direction: ; */
+
+#services::before{
+    content: "";
+ position: absolute;
+ background: url("/servicesbg.jpg") no-repeat center center/cover ;
+ width: 100%;
+ top: 297px ;
+ height: 551px;
+ z-index: -1;
+ opacity: 0.9;
+}
+
+.box{
+    border: tomato 2px solid;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column ; 
+    justify-content: center;
+    align-items: center; 
+    background-color: burlywood;
+    padding: 10px;
+    margin: auto;
+}
+
+.box img{
+    width: 233px;
+    height: 163px; 
+    margin-top: -21px; 
+}
+.box p{
+    display: inline-block;
+    width: 300px;
+    margin: auto;
+    text-justify: center;
+    text-align: center;  
+}
+.primaryservices{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+/* .primaryservices h1{
+    display: block;
+    margin-top: -26px;
+    text-align: center;
+    justify-content: center;
+    font-size: 47px
+    
+} */
+
+/* client section  */
+
+#clientsmain{
+    position: relative;
+}
+
+#clientsmain::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    top: 23px;
+    background: url("/client.jpg") no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#client{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.item{
+    padding: 37px;
+}
+
+#client img{
+    height: 140px;
+    width: 250px;
+}
+#clientsmain h1{
+    text-align: center;
+    margin-top: 42px;
+    font-size: 52px;
+    padding: 22px;
+}
+
+/* contact section */
+
+#contactus{
+    position: relative;
+}
+
+#contactus::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 350px;
+bottom: 0%;
+z-index: -1;
+background: url("/contactus.jpg") no-repeat center center/cover;
+}
+
+ #contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+ }
+
+ .form-group input{
+    width: 134%;
+    padding: 0.3rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+ }
+.primarycontact{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+
+
+/* .primarycontact{
+    
+} */
